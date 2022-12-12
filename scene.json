@@ -1,0 +1,47 @@
+{
+  "ecs7": true,
+  "display": {
+    "title": "interactive-text",
+    "favicon": "favicon_asset"
+  },
+  "contact": {
+    "name": "menduz",
+    "email": "menduz@menduz.com"
+  },
+  "owner": "Menduz",
+  "scene": {
+    "parcels": [
+      "13,-137"
+    ],
+    "base": "13,-137"
+  },
+  "communications": {
+    "type": "webrtc",
+    "signalling": "https://signalling-01.decentraland.org"
+  },
+  "policy": {
+    "contentRating": "E",
+    "fly": true,
+    "voiceEnabled": true,
+    "blacklist": []
+  },
+  "requiredPermissions": [],
+  "main": "bin/game.js",
+  "tags": [],
+  "spawnPoints": [
+    {
+      "name": "spawn1",
+      "default": true,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "cameraTarget": {
+        "x": 8,
+        "y": 1,
+        "z": 8
+      }
+    }
+  ]
+}
