@@ -11,10 +11,11 @@
     "start": "dcl start",
     "build": "build-ecs",
     "build-prod": "build-ecs --production",
-    "watch": "build-ecs --watch"
+    "watch": "build-ecs --watch",
+    "deploy-world": "dcl deploy --target-content https://worlds-content-server.decentraland.org/"
   },
   "author": "",
   "dependencies": {
-    "@dcl/sdk": "^7.0.6-3652441072.commit-39343cb"
+    "@dcl/sdk": "^7.0.6-3830539086.commit-6152fbd"
   }
 }
